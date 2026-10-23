@@ -1,9 +1,9 @@
 *{
 
-        margin:10;
-        padding:10;
+        margin:0;
+        padding:0;
         box-sizing: border-box;
-        font-family: "Montserrat", sans-serif;
+        font-family: 'montserrat', sans-serif;
 
 }
 li{
@@ -16,7 +16,7 @@ nav{
 header{
      margin:30px 0px 144px 70px
 }
-a{
+.link-menu{
      font-weight: 600;
      font-size: 24px;
      line-height: 28px;
@@ -45,4 +45,121 @@ a:hover{
 .botao-login.botao-login:hover{
      opacity: 0.8;
      color:black;
+}
+
+.logo{
+     width: 40%;
+     max-width: 430px;
+     display: inline-block;
+     vertical-align: middle;
+margin:0 5%;
+
+}
+.texto{
+     width: 40%;
+     display:inline-block;
+     vertical-align: middle;
+     margin:0 0 0 5%;
+     text-align: left;
+}
+main{
+     text-align: center;
+}
+.botao-explore{
+     width: 110px;
+     height: 34px;
+     cursor: pointer;
+     background: #8dff71;
+     border:none;
+     border-radius: 20px;
+     font-size: 20px;
+     font-weight: 500;
+     box-shadow: 0 4px 5px rgba(0,0,0, 0.2);
+     transition: opacity 0.3s;
+}
+
+.botao-explore:hover {
+opacity: 0.7;
+}
+
+.titulo{
+     font-size: 35px;
+     font-weight: 900;
+     color:#0903b9;
+}
+.sub-titulo{
+     color: #2a3747;
+     line-height: 1.5;
+     font-size: 25px;
+}
+.paragrafo{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color:#2a3747;
+     text-align: justify;
+     margin: 20px 0 40px 0;
+     max-width: 500px;
+}
+footer{
+     text-align: center;
+     background: #f4f4f4;
+     padding: 60px;
+     font-size: 14px;
+     margin-top: 100px;
+}                   
+
+
+
+.img-dog{
+     display: block;
+     width: 70%;
+     height: 450px;
+     object-fit: cover;
+     margin: 80px auto 0 auto;
+     border-radius: 18px;
+}
+
+@media (max-width:768px){
+     header{
+     margin:30px 0px 60px 0;
+     text-align: center;
+     width: 100%;
+}
+
+a{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 28px;
+     margin: 0 5px 0 0 ;
+}
+
+.botao-login{
+     width:90px;
+     height:32px ;
+     border-radius: 15px;
+     
+     font-size: 18px;
+     font-weight: 600;
+}
+
+.logo{
+     width: 40%;
+     display:block;
+     margin: 0 auto 50px auto;
+}
+.texto{
+     width: 40%;
+     text-align: center;
+}
+
+.titulo{
+     font-size: 35px;
+     font-weight: 900;
+     color:#0903b9;
+}
+     .img-dog{
+         max-height: 250px;
+     }
+
 }
